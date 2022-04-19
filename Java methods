@@ -1,0 +1,18 @@
+class me{
+
+static void ag(int age)
+{
+
+if(age<18)
+System.out.println("Acess denied");
+else
+System.out.println("Access granted");
+}
+
+
+public static void main(String args[]){
+
+ag(111);
+
+}
+}
